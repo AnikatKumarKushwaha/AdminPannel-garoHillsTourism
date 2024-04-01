@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.auth {
+  @media screen and (min-width: 768px) {
+    clip-path: polygon(0 0, 100% 0, 79% 100%, 0% 100%);
+  }
+}
